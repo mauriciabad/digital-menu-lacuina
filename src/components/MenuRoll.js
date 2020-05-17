@@ -17,8 +17,8 @@ class MenuRoll extends React.Component {
               to={post.fields.slug}
               >
               <div>
-                <img src={post.frontmatter.langImage ? post.frontmatter.langImage.publicURL : '/img/empty.svg'} alt="" />
-                <span>{post.frontmatter.langName}</span>  
+                <img src={post.frontmatter.lang.langImage ? post.frontmatter.lang.langImage.publicURL : '/img/empty.svg'} alt="" />
+                <span>{post.frontmatter.lang.langName}</span>  
               </div>
             </Link>
           ))}
@@ -40,7 +40,7 @@ export default () => (
     query={graphql`
       query MenuRollQuery {
         allMarkdownRemark(
-          sort: { order: ASC, fields: [frontmatter___langName] }
+          sort: { order: ASC, fields: [frontmatter___lang___langName] }
           filter: { frontmatter: { templateKey: { eq: "menu-post" } } }
         ) {
           edges {
@@ -51,9 +51,11 @@ export default () => (
               }
               frontmatter {
                 templateKey
-                langName
-                langImage {
-                  publicURL
+                lang {
+                  langName
+                  langImage {
+                    publicURL
+                  }
                 }
               }
             }
