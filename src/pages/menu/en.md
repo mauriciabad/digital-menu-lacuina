@@ -1,9 +1,10 @@
 ---
 templateKey: menu-post
+lang:
+  langCode: en
+  langName: English
+  langImage: /img/united-kingdom.svg
 title: Sisu's kitchen
-langCode: en
-langName: English
-langImage: /img/united-kingdom.svg
 ---
 ## Menu
 
