@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import './all.scss'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import Footer from '../components/Footer'
 
 // import logo from '../img/logo.svg'
 import faviconApple from '../img/favicon/apple-touch-icon.png'
@@ -41,6 +42,7 @@ const TemplateWrapper = ({ children }) => {
 
       </Helmet>
       <div>{children}</div>
+      <Footer />
     </div>
   )
 }

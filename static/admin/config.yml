@@ -45,6 +45,14 @@ collections:
         name: "settings"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
-          - {label: "Web", name: "title", widget: "string"}
           - {label: "Fondo", name: "bgimage", widget: image}
           - {label: "Código del idioma predeterminado", name: "defaultLang", widget: "string", pattern: ['^[a-z]{2}$', 'Código de idioma incorrecto']}
+          - label: "Redes sociales"
+            name: "social"
+            widget: "object"
+            collapsed: false
+            fields: 
+            - {label: "Web (URL)", name: "socialWeb", widget: "string"}
+            - {label: "Facebook (URL)", name: "socialFacebook", widget: "string"}
+            - {label: "Twitter (URL)", name: "socialTwitter", widget: "string"}
+            - {label: "Instagram (URL)", name: "socialInstagram", widget: "string"}
