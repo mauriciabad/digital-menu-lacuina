@@ -1,6 +1,7 @@
 body {
   font-family: 'Quicksand', sans-serif;
   // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
 }
 
 .menu-link__list {
@@ -35,4 +36,36 @@ body {
   background-color: #dadada;
   border-radius: 1rem;
   font-weight: bold;
+}
+
+
+
+
+
+// --------- menu-post
+
+.menu-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+  }
+}
+
+.menu {
+
+  h1, h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+  }
+  
+  img {
+    width: 100%;
+    margin: 1rem auto;
+  }
 }
