@@ -40,7 +40,7 @@ export default () => (
     query={graphql`
       query MenuRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: ASC, fields: [frontmatter___langName] }
           filter: { frontmatter: { templateKey: { eq: "menu-post" } } }
         ) {
           edges {
@@ -52,7 +52,6 @@ export default () => (
               frontmatter {
                 langName
                 templateKey
-                date(formatString: "DD MMMM YYYY")
                 flagimage {
                   publicURL
                 }
