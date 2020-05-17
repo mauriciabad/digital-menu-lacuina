@@ -20,11 +20,12 @@ collections:
     folder: "src/pages/menu"
     create: true
     slug: "{{fields.lang}}"
-    identifier_field: "{{fields.lang}} - {{fields.title}}"
+    identifier_field: "langName"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu-post"}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime"}
-      - {label: "Código de idioma", name: "lang", widget: "string", pattern: ['^[a-z]{2}$', 'Código de idioma incorrecto']}
+      - {label: "Nombre del idioma (en el propio idioma)", name: "langName", widget: "string"}
+      - {label: "Código del idioma", name: "lang", widget: "string", pattern: ['^[a-z]{2}$', 'Código de idioma incorrecto']}
       - {label: "Bandera", name: "flagimage", widget: image}
       - {label: "Contenido", name: "body", widget: "markdown"}

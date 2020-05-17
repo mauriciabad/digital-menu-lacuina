@@ -1,8 +1,9 @@
 ---
 templateKey: menu-post
-title: Carte EsCastell
+title: La cuisine de Sisu
 date: 2020-05-17T15:27:12.027Z
 lang: fr
+langName: Française
 flagimage: /img/france.svg
 ---
 ## Carte
