@@ -48,6 +48,7 @@ const MenuPost = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s">
             <title>{`${post.frontmatter.title}`}</title>
+            <html lang={`${post.frontmatter.lang}`} />
           </Helmet>
         }
         title={post.frontmatter.title}
@@ -72,6 +73,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "DD MMMM YYYY")
         title
+        lang
       }
     }
   }
