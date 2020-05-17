@@ -15,6 +15,19 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "menu"
+    label: "Carta"
+    folder: "src/pages/menu"
+    create: true
+    slug: "{{fields.lang}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+      - {label: "Código de idioma", name: "lang", widget: "string"}
+      - {label: "Bandera", name: "flagimage", widget: image}
+      - {label: "Contenido", name: "body", widget: "markdown"}
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
