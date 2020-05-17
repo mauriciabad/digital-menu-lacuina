@@ -1,16 +1,23 @@
-import React from 'react'
+import { useEffect } from "react";
+import { navigate } from "gatsby";
 
-import Layout from '../components/Layout'
-import MenuRoll from '../components/MenuRoll'
-
-export default class BlogIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-        <div className="content">
-          <MenuRoll />
-        </div>
-      </Layout>
-    )
+const getRedirectLanguage = () => {
+  if (typeof navigator === `undefined`) {
+    return "ca";
   }
-}
+
+  const lang = navigator && navigator.language && navigator.language.split("-")[0];
+  return lang || "ca";
+};
+
+const IndexPage = () => {
+  useEffect(() => {
+    const urlLang = getRedirectLanguage();
+
+    navigate(`/menu/${urlLang}/`);
+  }, []);
+
+  return null;
+};
+
+export default IndexPage;

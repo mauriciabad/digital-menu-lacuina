@@ -1,16 +1,12 @@
-import React from 'react'
+import { useEffect } from "react";
+import { navigate } from "gatsby";
 
-import Layout from '../components/Layout'
-import MenuRoll from '../components/MenuRoll'
+const NotFoundPage = () => {
+  useEffect(() => {
+    navigate(`/menu/ca/`);
+  }, []);
 
-export default class NotFoundPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-        <div className="content">
-          <MenuRoll />
-        </div>
-      </Layout>
-    )
-  }
-}
+  return null;
+};
+
+export default NotFoundPage;

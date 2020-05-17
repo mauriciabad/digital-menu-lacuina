@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import MenuRoll from '../../components/MenuRoll'
 
-export default class BlogIndexPage extends React.Component {
+export default class MenuIndexPage extends React.Component {
   render() {
     return (
       <Layout>
