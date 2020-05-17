@@ -14,7 +14,7 @@ const IndexPage = () => {
   useEffect(() => {
     const urlLang = getRedirectLanguage();
 
-    navigate(`/menu/${urlLang}/`);
+    navigate(`/${urlLang}/`);
   }, []);
 
   return null;

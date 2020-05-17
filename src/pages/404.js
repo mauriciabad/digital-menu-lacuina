@@ -3,7 +3,7 @@ import { navigate } from "gatsby";
 
 const NotFoundPage = () => {
   useEffect(() => {
-    navigate(`/menu/ca/`);
+    navigate(`/ca/`);
   }, []);
 
   return null;
