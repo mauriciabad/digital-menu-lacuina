@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class MenuRoll extends React.Component {
   render() {
@@ -17,12 +16,7 @@ class MenuRoll extends React.Component {
               to={post.fields.slug}
               >
               <div>
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: post.frontmatter.flagimage || '/img/menu.png',
-                    alt: '',
-                  }}
-                />
+                <img src={post.frontmatter.flagimage.publicURL || '/img/empty.svg'} alt="" />
                 <span>{post.frontmatter.title}</span>  
               </div>
             </Link>
@@ -58,7 +52,9 @@ export default () => (
                 title
                 templateKey
                 date(formatString: "DD MMMM YYYY")
-                flagimage
+                flagimage {
+                  publicURL
+                }
               }
             }
           }
