@@ -20,6 +20,7 @@ collections:
     folder: "src/pages/menu"
     create: true
     slug: "{{fields.lang}}"
+    identifier_field: "{{fields.lang}} - {{fields.title}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu-post"}
       - {label: "Titulo", name: "title", widget: "string"}
