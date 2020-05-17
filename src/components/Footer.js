@@ -3,7 +3,7 @@ import React from 'react'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 // import twitter from '../img/social/twitter.svg'
-import web from '../img/social/web.svg'
+// import web from '../img/social/web.svg'
 
 const Footer = class extends React.Component {
   render() {
