@@ -20,7 +20,7 @@ collections:
     label: "Carta"
     folder: "src/pages"
     create: true
-    slug: "{{fields.langCode}}"
+    slug: "{{fields.lang.langCode}}"
     identifier_field: "langName"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu-post"}
