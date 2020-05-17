@@ -34,8 +34,12 @@ collections:
     create: false
     editor:
       preview: false
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
-      - {label: "Web", name: "title", widget: "string"}
-      - {label: "Fondo", name: "bgimage", widget: image}
-      - {label: "Código del idioma predeterminado", name: "defaultLang", widget: "string", pattern: ['^[a-z]{2}$', 'Código de idioma incorrecto']}
+    files:
+      - file: "src/settings.md"
+        label: "General"
+        name: "settings"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
+          - {label: "Web", name: "title", widget: "string"}
+          - {label: "Fondo", name: "bgimage", widget: image}
+          - {label: "Código del idioma predeterminado", name: "defaultLang", widget: "string", pattern: ['^[a-z]{2}$', 'Código de idioma incorrecto']}
