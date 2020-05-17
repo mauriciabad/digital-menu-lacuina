@@ -1,9 +1,9 @@
 ---
 templateKey: menu-post
 title: La cocina de Sisu
-lang: es
+langCode: es
 langName: Español
-flagimage: /img/spain.svg
+langImage: /img/spain.svg
 ---
 ## Menú
 

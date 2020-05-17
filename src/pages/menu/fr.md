@@ -1,9 +1,9 @@
 ---
 templateKey: menu-post
 title: La cuisine de Sisu
-lang: fr
+langCode: fr
 langName: Française
-flagimage: /img/france.svg
+langImage: /img/france.svg
 ---
 ## Carte
 

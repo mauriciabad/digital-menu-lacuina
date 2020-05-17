@@ -17,7 +17,7 @@ class MenuRoll extends React.Component {
               to={post.fields.slug}
               >
               <div>
-                <img src={post.frontmatter.flagimage ? post.frontmatter.flagimage.publicURL : '/img/empty.svg'} alt="" />
+                <img src={post.frontmatter.langImage ? post.frontmatter.langImage.publicURL : '/img/empty.svg'} alt="" />
                 <span>{post.frontmatter.langName}</span>  
               </div>
             </Link>
@@ -50,9 +50,9 @@ export default () => (
                 slug
               }
               frontmatter {
-                langName
                 templateKey
-                flagimage {
+                langName
+                langImage {
                   publicURL
                 }
               }

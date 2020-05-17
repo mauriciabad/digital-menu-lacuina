@@ -44,7 +44,7 @@ const MenuPost = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s">
             <title>{`${post.frontmatter.title}`}</title>
-            <html lang={`${post.frontmatter.lang}`} />
+            <html lang={`${post.frontmatter.langCode}`} />
           </Helmet>
         }
         title={post.frontmatter.title}
@@ -68,7 +68,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        lang
+        langCode
       }
     }
   }
