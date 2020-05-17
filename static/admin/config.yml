@@ -34,25 +34,25 @@ collections:
         - {label: "Bandera", name: "langImage", widget: image}
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Contenido", name: "body", widget: "markdown"}
-  - name: "settings"
-    label: "Configuración"
-    create: false
-    editor:
-      preview: false
-    files:
-      - file: "src/settings.md"
-        label: "General"
-        name: "settings"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
-          - {label: "Fondo", name: "bgimage", widget: image}
-          - {label: "Código del idioma predeterminado", name: "defaultLang", widget: "string", pattern: ['^[a-z]{2}$', 'Código de idioma incorrecto']}
-          - label: "Redes sociales"
-            name: "social"
-            widget: "object"
-            collapsed: false
-            fields: 
-            - {label: "Web (URL)", name: "socialWeb", widget: "string"}
-            - {label: "Facebook (URL)", name: "socialFacebook", widget: "string"}
-            - {label: "Twitter (URL)", name: "socialTwitter", widget: "string"}
-            - {label: "Instagram (URL)", name: "socialInstagram", widget: "string"}
+  # - name: "settings"
+  #   label: "Configuración"
+  #   create: false
+  #   editor:
+  #     preview: false
+  #   files:
+  #     - file: "src/settings.md"
+  #       label: "General"
+  #       name: "settings"
+  #       fields:
+  #         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
+  #         - {label: "Fondo", name: "bgimage", widget: image}
+  #         - {label: "Código del idioma predeterminado", name: "defaultLang", widget: "string", pattern: ['^[a-z]{2}$', 'Código de idioma incorrecto']}
+  #         - label: "Redes sociales"
+  #           name: "social"
+  #           widget: "object"
+  #           collapsed: false
+  #           fields: 
+  #           - {label: "Web (URL)", name: "socialWeb", widget: "string"}
+  #           - {label: "Facebook (URL)", name: "socialFacebook", widget: "string"}
+  #           - {label: "Twitter (URL)", name: "socialTwitter", widget: "string"}
+  #           - {label: "Instagram (URL)", name: "socialInstagram", widget: "string"}
