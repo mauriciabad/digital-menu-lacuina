@@ -8,6 +8,9 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+locale: 'es'
+site_url: https://escastell-menu.netlify.app/
+
 media_folder: static/img
 public_folder: /img
 
