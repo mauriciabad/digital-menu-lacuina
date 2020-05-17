@@ -26,3 +26,8 @@
     transform: scale(1.25);
   }
 }
+.menu-link--active {
+  background-color: #dadada;
+  border-radius: 1rem;
+  font-weight: bold;
+}

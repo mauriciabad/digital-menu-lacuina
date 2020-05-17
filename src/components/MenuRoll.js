@@ -13,6 +13,7 @@ class MenuRoll extends React.Component {
           posts.map(({ node: post }) => (
             <Link
               className="menu-link"
+              activeClassName="menu-link--active"
               to={post.fields.slug}
               >
               <div>

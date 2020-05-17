@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import MenuRoll from '../components/MenuRoll'
 
 export const MenuPostTemplate = ({
   content,
@@ -42,6 +43,7 @@ const MenuPost = ({ data }) => {
 
   return (
     <Layout>
+      <MenuRoll />
       <MenuPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
