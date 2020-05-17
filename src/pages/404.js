@@ -1,12 +1,14 @@
-import { useEffect } from "react";
-import { navigate } from "gatsby";
+import React from 'react'
+import Layout from '../components/Layout'
+import MenuRoll from '../components/MenuRoll'
 
 const NotFoundPage = () => {
-  useEffect(() => {
-    navigate(`/ca/`);
-  }, []);
+  return (
+    <Layout>
+      <MenuRoll />
+    </Layout>
+  )
+}
 
-  return null;
-};
 
 export default NotFoundPage;
