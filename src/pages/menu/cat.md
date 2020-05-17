@@ -3,12 +3,12 @@ templateKey: blog-post
 title: Menú EsCastell
 date: 2020-05-17T15:27:12.027Z
 lang: cat
-flagimage: /img/apple-touch-icon.png
+flagimage: /img/catalonia.svg
 ---
 ## Carta menú
 
-![](/img/flavor_wheel.jpg)
+![](/img/menu.png)
 
 ## Carta de vins
 
-![](/img/chemex.jpg)
+![](/img/menu.png)
