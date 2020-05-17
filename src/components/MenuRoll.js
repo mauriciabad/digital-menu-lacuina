@@ -15,6 +15,7 @@ class MenuRoll extends React.Component {
               className="menu-link"
               activeClassName="menu-link--active"
               to={post.fields.slug}
+              key={post.id}
               >
               <div>
                 <img src={post.frontmatter.lang.langImage ? post.frontmatter.lang.langImage.publicURL : '/img/empty.svg'} alt="" />
