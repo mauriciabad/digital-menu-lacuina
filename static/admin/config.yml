@@ -21,7 +21,7 @@ collections:
     folder: "src/pages"
     create: true
     slug: "{{fields.lang.langCode}}"
-    identifier_field: "langName"
+    identifier_field: "lang.langName"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu-post"}
       - label: "Idioma"
