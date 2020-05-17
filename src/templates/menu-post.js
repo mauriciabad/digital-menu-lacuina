@@ -44,7 +44,7 @@ const MenuPost = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s">
             <title>{`${post.frontmatter.title}`}</title>
-            <html lang={`${post.frontmatter.lang.langCode}`} />
+            {/* <html lang={`${post.frontmatter.lang.langCode}`} /> */}
           </Helmet>
         }
         title={post.frontmatter.title}
