@@ -21,7 +21,7 @@ collections:
     create: true
     slug: "{{fields.lang}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu-post"}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime"}
       - {label: "Código de idioma", name: "lang", widget: "string"}
