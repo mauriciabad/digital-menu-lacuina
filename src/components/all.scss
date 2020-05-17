@@ -39,6 +39,9 @@ body {
   &:hover img {
     transform: scale(1.25);
   }
+  &:active img {
+    transform: none;
+  }
 }
 .menu-link--active {
   // background-color: #dadada;
