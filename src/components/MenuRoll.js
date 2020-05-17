@@ -19,7 +19,7 @@ class MenuRoll extends React.Component {
               <div>
                 <PreviewCompatibleImage
                   imageInfo={{
-                    image: post.frontmatter.langimage || '/img/menu.png',
+                    image: post.frontmatter.flagimage || '/img/menu.png',
                     alt: '',
                   }}
                 />
@@ -58,7 +58,7 @@ export default () => (
                 title
                 templateKey
                 date(formatString: "DD MMMM YYYY")
-                langimage
+                flagimage
               }
             }
           }
