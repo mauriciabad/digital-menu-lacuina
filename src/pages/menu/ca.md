@@ -1,7 +1,10 @@
 ---
 templateKey: menu-post
+lang:
+  langCode: ca
+  langName: Caralà
+  langImage: /img/catalonia.svg
 title: La cuina d'en Sisu
-lang: 
 langCode: ca
 langName: Català
 langImage: /img/catalonia.svg
