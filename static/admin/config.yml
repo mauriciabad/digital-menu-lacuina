@@ -10,7 +10,7 @@ backend:
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
 locale: 'es'
-site_url: https://escastell-menu.netlify.app/
+site_url: https://lacuina-carta.netlify.app/
 
 media_folder: static/img
 public_folder: /img
