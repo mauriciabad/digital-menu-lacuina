@@ -25,6 +25,6 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu-post"}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime"}
-      - {label: "Código de idioma", name: "lang", widget: "string"}
+      - {label: "Código de idioma", name: "lang", widget: "string", pattern: ['/^[a-z]{2}$/', 'Código de idioma incorrecto']}
       - {label: "Bandera", name: "flagimage", widget: image}
       - {label: "Contenido", name: "body", widget: "markdown"}
