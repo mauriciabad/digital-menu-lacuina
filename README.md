@@ -12,6 +12,8 @@ Due to the technologies used deploying this is 100% free.
 
 <img src="/qr.jpeg" style="width: 300px; text-align: center;">
 
+![Screenshot admin preview](/screenshot-admin.png)
+
 ## Setup
 
 This project uses [Gatsby.js](https://www.gatsbyjs.org/) and [Netlify CRM](https://www.netlifycms.org/).
