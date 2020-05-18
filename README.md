@@ -10,7 +10,9 @@ This avoids touching phisical cards and stop the spread of COVID-19.
 
 Due to the technologies used deploying this is 100% free.
 
-<p align="center"><img src="/qr.jpeg" width="300px"></p>
+<p align="center"><img src="/qr.jpeg" width="200px"></p>
+
+This is how the administration CRM looks like:
 
 ![Screenshot admin preview](/screenshot-admin.png)
 
