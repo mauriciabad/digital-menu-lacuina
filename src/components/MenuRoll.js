@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
+import emptyFlag from '../img/empty-flag.svg'
 
 class MenuRoll extends React.Component {
   render() {
@@ -18,7 +19,7 @@ class MenuRoll extends React.Component {
               key={post.id}
               >
               <div>
-                <img src={post.frontmatter.lang.langImage ? post.frontmatter.lang.langImage.publicURL : '/img/empty.svg'} alt="" />
+                <img src={post.frontmatter.lang.langImage ? post.frontmatter.lang.langImage.publicURL : emptyFlag} alt="" />
                 <span>{post.frontmatter.lang.langName}</span>  
               </div>
             </Link>
