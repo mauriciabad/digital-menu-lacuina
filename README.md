@@ -10,7 +10,7 @@ This avoids touching phisical cards and stop the spread of COVID-19.
 
 Due to the technologies used deploying this is 100% free.
 
-<img src="/qr.jpeg" style="width: 300px; text-align: center;">
+<p align="center"><img src="/qr.jpeg" width="300px"></p>
 
 ![Screenshot admin preview](/screenshot-admin.png)
 
