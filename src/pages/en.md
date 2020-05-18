@@ -8,8 +8,8 @@ title: Sisu's kitchen
 ---
 ## Menu
 
-![Menu](/img/menu.png)
+![Menu](/img/ejemplo-menu.png)
 
 ## Wine list
 
-![Wine list](/img/menu.png)
+![Wine list](/img/ejemplo-menu.png)

@@ -8,8 +8,8 @@ title: La cocina de Sisu
 ---
 ## Menú
 
-![Menú](/img/menu.png)
+![Menú](/img/ejemplo-menu.png)
 
 ## Carta de vinos
 
-![Carta de vinos](/img/menu.png)
+![Carta de vinos](/img/ejemplo-menu.png)

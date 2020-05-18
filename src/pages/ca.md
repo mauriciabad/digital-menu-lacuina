@@ -8,8 +8,8 @@ title: La cuina d'en Sisu
 ---
 ## Menú
 
-![Menú](/img/menu.png)
+![Menú](/img/ejemplo-menu.png)
 
 ## Carta de vins
 
-![Carta de vins](/img/menu.png)
+![Carta de vins](/img/ejemplo-menu.png)
