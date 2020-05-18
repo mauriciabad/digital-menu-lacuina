@@ -10,13 +10,13 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer">
         <div className="social">
-          <a href="https://facebook.com">
+          <a href="https://www.facebook.com/hotelclassicbegur">
             <img src={facebook} alt="Facebook" />
           </a>
           {/* <a href="https://twitter.com">
             <img src={twitter} alt="Twitter" />
           </a> */}
-          <a href="https://instagram.com">
+          <a href="https://www.instagram.com/lacuinabegur/">
             <img src={instagram} alt="Instagram" />
           </a>
         </div>
