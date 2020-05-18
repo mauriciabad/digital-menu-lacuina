@@ -4,7 +4,6 @@ lang:
   langCode: fr
   langName: Française
   langImage: /img/france.svg
-title: La cuisine de Sisu
 ---
 ## Carte
 

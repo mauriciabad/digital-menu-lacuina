@@ -4,7 +4,6 @@ lang:
   langCode: es
   langName: Español
   langImage: /img/spain.svg
-title: La cocina de Sisu
 ---
 ## Menú
 

@@ -6,7 +6,6 @@ const MenuPostPreview = ({ entry, widgetFor }) => {
   return (
     <MenuPostTemplate
       content={widgetFor('body')}
-      title={entry.getIn(['data', 'title'])}
     />
   )
 }

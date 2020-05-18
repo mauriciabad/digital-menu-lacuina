@@ -4,7 +4,6 @@ lang:
   langCode: en
   langName: English
   langImage: /img/united-kingdom.svg
-title: Sisu's kitchen
 ---
 ## Menu
 

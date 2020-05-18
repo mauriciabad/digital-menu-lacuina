@@ -32,7 +32,6 @@ collections:
         - {label: "Código de idioma (ISO 639-1)", name: "langCode", widget: "string", pattern: ['^[a-z]{2}$', 'Código de idioma incorrecto']}
         - {label: "Nombre (en el propio idioma)", name: "langName", widget: "string"}
         - {label: "Bandera", name: "langImage", widget: image}
-      - {label: "Título", name: "title", widget: "string"}
       - {label: "Contenido", name: "body", widget: "markdown"}
   # - name: "settings"
   #   label: "Configuración"

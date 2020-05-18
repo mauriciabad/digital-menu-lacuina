@@ -4,7 +4,6 @@ lang:
   langCode: ca
   langName: Català
   langImage: /img/catalonia.svg
-title: La cuina d'en Sisu
 ---
 ## Menú
 

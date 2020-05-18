@@ -5,11 +5,11 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import MenuRoll from '../components/MenuRoll'
+import logo from '../img/logo.png'
 
 export const MenuPostTemplate = ({
   content,
   contentComponent,
-  title,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -17,8 +17,8 @@ export const MenuPostTemplate = ({
   return (
     <section>
       {helmet || ''}
+      <img src={logo} alt="" className="logo"/>
       <div className="menu-container">
-        <h1>{title}</h1>
         <PostContent content={content} className="menu" />
       </div>
     </section>
@@ -43,11 +43,10 @@ const MenuPost = ({ data }) => {
         contentComponent={HTMLContent}
         helmet={
           <Helmet titleTemplate="%s">
-            <title>{`${post.frontmatter.title}`}</title>
+            {/* <title>{`${post.frontmatter.title}`}</title> */}
             {/* <html lang={`${post.frontmatter.lang.langCode}`} /> */}
           </Helmet>
         }
-        title={post.frontmatter.title}
       />
     </Layout>
   )
