@@ -5,10 +5,16 @@ lang:
   langName: Català
   langImage: /img/catalonia.svg
 ---
-## Menú
+![](/img/la-cuina-d-en-sisu-05.png)
 
-![Menú](/img/ejemplo-menu.png)
+![](/img/la-cuina-d-en-sisu-09.png)
+
+![](/img/la-cuina-d-en-sisu-10.png)
 
 ## Carta de vins
 
-![Carta de vins](/img/ejemplo-menu.png)
+![](/img/carta-vins-2020-provisional-1.png)
+
+![](/img/carta-vins-2020-provisional-2.png)
+
+![](/img/carta-vins-2020-provisional-3.png)
