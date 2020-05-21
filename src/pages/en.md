@@ -5,10 +5,16 @@ lang:
   langName: English
   langImage: /img/united-kingdom.svg
 ---
-## Menu
+![](/img/la-cuina-d-en-sisu-07.png)
 
-![Menu](/img/ejemplo-menu.png)
+![](/img/la-cuina-d-en-sisu-09.png)
+
+![](/img/la-cuina-d-en-sisu-12.png)
 
 ## Wine list
 
-![Wine list](/img/ejemplo-menu.png)
+![](/img/carta-vins-2020-provisional-1.png)
+
+![](/img/carta-vins-2020-provisional-2.png)
+
+![](/img/carta-vins-2020-provisional-3.png)

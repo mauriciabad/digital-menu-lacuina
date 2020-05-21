@@ -5,10 +5,16 @@ lang:
   langName: Française
   langImage: /img/france.svg
 ---
-## Carte
+![](/img/la-cuina-d-en-sisu-08.png)
 
-![Carte](/img/ejemplo-menu.png)
+![](/img/la-cuina-d-en-sisu-09.png)
+
+![](/img/la-cuina-d-en-sisu-13.png)
 
 ## Carte des vins
 
-![Carte des vins](/img/ejemplo-menu.png)
+![](/img/carta-vins-2020-provisional-1.png)
+
+![](/img/carta-vins-2020-provisional-2.png)
+
+![](/img/carta-vins-2020-provisional-3.png)
