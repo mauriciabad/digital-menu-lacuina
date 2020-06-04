@@ -5,11 +5,11 @@ lang:
   langName: English
   langImage: /img/united-kingdom.svg
 ---
-![](/img/la-cuina-d-en-sisu-07.png)
+![](/img/carta-benvinguda.png)
+
+![](/img/carta-en-fr.png)
 
 ![](/img/la-cuina-d-en-sisu-09.png)
-
-![](/img/la-cuina-d-en-sisu-12.png)
 
 ## Wine list
 
