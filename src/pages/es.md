@@ -5,11 +5,11 @@ lang:
   langName: Español
   langImage: /img/spain.svg
 ---
-![](/img/la-cuina-d-en-sisu-06.png)
+![](/img/carta-benvinguda.png)
+
+![](/img/carta-cat-es.png)
 
 ![](/img/la-cuina-d-en-sisu-09.png)
-
-![](/img/la-cuina-d-en-sisu-11.png)
 
 ## Carta de vinos
 
