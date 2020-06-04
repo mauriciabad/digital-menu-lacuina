@@ -7,11 +7,9 @@ lang:
 ---
 ![](/img/carta-benvinguda.png)
 
+![](/img/carta-cat-es.png)
+
 ![](/img/la-cuina-d-en-sisu-09.png)
-
-
-
-![]()
 
 ## Carta de vins
 
