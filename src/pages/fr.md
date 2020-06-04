@@ -5,11 +5,11 @@ lang:
   langName: Française
   langImage: /img/france.svg
 ---
-![](/img/la-cuina-d-en-sisu-08.png)
+![](/img/carta-benvinguda.png)
+
+![](/img/carta-en-fr.png)
 
 ![](/img/la-cuina-d-en-sisu-09.png)
-
-![](/img/la-cuina-d-en-sisu-13.png)
 
 ## Carte des vins
 
