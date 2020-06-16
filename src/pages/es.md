@@ -9,7 +9,7 @@ lang:
 
 ![](/img/carta-ca-es.png)
 
-![](/img/la-cuina-d-en-sisu-09.png)
+![](/img/carta-postres.png)
 
 ## Carta de vinos
 
