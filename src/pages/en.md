@@ -9,7 +9,7 @@ lang:
 
 ![](/img/carta-en-fr.png)
 
-![](/img/la-cuina-d-en-sisu-09.png)
+![](/img/carta-postres.png)
 
 ## Wine list
 
