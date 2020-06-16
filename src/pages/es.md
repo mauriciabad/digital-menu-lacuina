@@ -7,7 +7,7 @@ lang:
 ---
 ![](/img/carta-benvinguda.png)
 
-![](/img/carta-cat-es.png)
+![](/img/carta-ca-es.png)
 
 ![](/img/la-cuina-d-en-sisu-09.png)
 
